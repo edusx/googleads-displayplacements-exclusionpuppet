@@ -1,20 +1,32 @@
-//<--- Start --->
-// Go to Placements, Exclusions and Click the Blue Edit Button (Pencil)
-// Click on "Exclude from Account", Click to "App Categories"
-// Click on "Google Play", Click on "Apple App Store"
+//<--- Start Here with Instructions --->
 //
-//<--- Insert snippet 1 --->
-    var clickTree1 = document.querySelectorAll("div[role='tree'] .row material-icon");
-    for (var y= 0; y < clickTree1.length; y++) {
-        if (clickTree1[y].innerText === 'expand_more') {
-            clickTree1[y].click();
-        }
+// Go to Google Ads Placements, then Exclusions and click the Blue Edit Button (Pencil).
+// Click on "Exclude from Account", Click to "App Categories".
+// Open your browser dev tools and go to console.
+//
+// <--- Insert code snippet below --->
+setTimeout(
+    function esx()
+    {var clickTree1 = document.querySelectorAll("div[role='tree'] .row material-icon");
+for (var y= 0; y < clickTree1.length; y++) {
+    if (clickTree1[y].innerText === 'expand_more') {
+        clickTree1[y].click();
     }
-// Click enter and see the Magic #1 happening
-//<--- Insert snippet 2 --->
+}}, 3000);
+setTimeout(
+    function esx()
+    {var clickTree1 = document.querySelectorAll("div[role='tree'] .row material-icon");
+for (var y= 0; y < clickTree1.length; y++) {
+    if (clickTree1[y].innerText === 'expand_more') {
+        clickTree1[y].click();
+    }
+}}, 3000);
+setTimeout(
+    function esx(){
 var clickTree2 = document.querySelectorAll("div[role='tree'] .ripple");
 for (var i = 0; i < clickTree2.length; i++) {
     clickTree2[i].click();
-}
+}}, 3000);
+//
 // Click enter and see the Magic #2 happening
-//<--- End --->
+//<--- End of the process --->
