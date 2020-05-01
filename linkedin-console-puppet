@@ -1,0 +1,1 @@
+javascript:(var clickTree1 = document.querySelectorAll("button[aria-pressed]");for (var y= 0; y < clickTree1.length; y++) { clickTree1[y].click();})();
